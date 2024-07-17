@@ -1,0 +1,21 @@
+dataset_infor:
+    file_type: 'csv'
+    text_column_name: 'review'
+    label_column_name: 'sentiment'
+    class_names: ['negative', 'positive']
+data_files:
+    train: './data/small_imdb_train.csv'
+    val: './data/small_imdb_val.csv' # can be blank
+    test: './data/small_imdb_test.csv' # can be blank
+model_configs:
+    pre_trained: 'bert-base-uncased'
+    num_labels: 2 # number of classes
+training_configs:
+    output_dir: './results/cls_results'
+    learning_rate: 5.0e-5
+    evaluation_strategy: "epoch"
+    logging_strategy: "epoch"
+    save_strategy: "epoch"
+    save_total_limit: 1
+    per_device_train_batch_size: 8 # batch_size
+    per_device_eval_batch_size: 8 # batch_size
