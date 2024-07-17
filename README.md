@@ -13,4 +13,4 @@ python train.py \
   --num_train_epochs 3 \
   --resume_from_checkpoint 'path/to/checkpoint' # add this line when resume the training from a checkpoint
 ```
-> The checkpoint will be save to the './results' directory
+> The checkpoints will be save to the 'output_dir' directory that is defined in the config file.
