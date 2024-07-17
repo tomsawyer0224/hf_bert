@@ -5,7 +5,7 @@
 # How to use:
 1. Clone this repo, then cd to hf_bert.
 2. Install the requirements: pip install -q -r requirements.txt
-3. Modify the config file (for example, ./config/cls_config.yaml), then runthe below command:
+3. Modify the config file (for example, ./config/cls_config.yaml), then run the below command:
 ```
 python train.py \
   --bert_type 'cls' \ # or 'qa'
