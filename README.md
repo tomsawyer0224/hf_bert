@@ -14,4 +14,4 @@ python train.py \
   --resume_from_checkpoint 'path/to/checkpoint' # add this line when resume the training from a checkpoint
 ```
 > The checkpoints will be save to the 'output_dir' directory that is defined in the config file. \
-Note: This project was built on Colab, it may not work on other platforms.
+Note: This project was built on Google Colab, it may not work on other platforms.
