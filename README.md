@@ -2,7 +2,7 @@
 This project provides an easy way to fine-tune the BERT model in Hugging Face library on two tasks: Classification and Question Answering.
 # About this project
 - This is a personal project, for educational purposes only!
-- You can fine-tune the BERT model on many datasets with only one command.
+- This project was built to fine-tune the BERT model on many datasets with only one command.
 # How to use
 1. Clone this repo, cd into hf_bert.
 2. Install the requirements: pip install -q -r requirements.txt
