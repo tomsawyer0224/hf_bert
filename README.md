@@ -1,5 +1,5 @@
 # Fine-tuning the BERT model using the Hugging Face library
-This project provides an easy way to fine-tune the BERT model in Hugging Face library on two tasks: Classification and Question Answering.
+This project provides an easy way to fine-tune the BERT model in the Hugging Face library for two tasks: Classification and Question Answering.
 # About this project
 - This is a personal project, for educational purposes only!
 - This project was built to fine-tune the BERT model on many datasets with only one command.
@@ -14,4 +14,4 @@ This project provides an easy way to fine-tune the BERT model in Hugging Face li
       --num_train_epochs 3 \
       --resume_from_checkpoint 'path/to/checkpoint' # add this line when resume the training from a checkpoint
     ```
-Note: This project was built on Google Colab, it may not work on other platforms.
+Note: This project was built on Google Colab. It may not work on other platforms.
