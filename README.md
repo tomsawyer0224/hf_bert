@@ -4,7 +4,7 @@ This project provides an easy way to fine-tune the BERT model in the Hugging Fac
 - This is a personal project, for educational purposes only!
 - This project was built to fine-tune the BERT model on many datasets with only one command.
 # How to use
-1. Clone this repo, cd into hf_bert.
+1. Clone this repo and cd into hf_bert.
 2. Install the requirements: pip install -q -r requirements.txt
 3. Modify the config file (for example, ./config/cls_config.yaml), then run the below command:
     ```
